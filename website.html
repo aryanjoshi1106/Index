@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+	<style type="text/css">
+    .front-page .navbar-collapse{
+
+    }
+    .page{
+      background-color: #084677d1;
+    }
+     .bg-light{
+      bs-bg-opacity: 1;
+    }
+    .demo_image img{
+      animation-name: magic;
+      animation-delay: 2s;
+      animation-duration: 1s;
+      animation-timeline: ease;
+     }
+      @keyframes magic{
+           0%{
+            transform: translateY(30px);
+           }
+           50%{
+            transform: translateY(50px);
+           }
+           70%{
+            transform: translateY(70px);
+           }
+           100%{
+            transform: translateY(0px);
+           }
+     }
+     .demo_text{
+      padding-top: 70px;
+      line-height: 50px;
+     }
+ </style>
+</head>
+<!-- The scrollable area -->
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+
+<!-- The navbar - The <a> elements are used to jump to a section in the scrollable area -->
+<nav class="navbar navbar-expand-sm   fixed-top">
+...
+  <ul class="navbar-nav">
+    <li><a href="Home">Arsha</a></li>
+    ...
+</nav>
+
+<!-- Section 1 -->
+<div id="home">
+ <div class="page">
+	<nav class="navbar navbar-expand-lg navbar-light bg- #084677d1">
+  <div class="container-fluid text-white">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="front-page">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Service</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Team</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+        </li>
+      </ul>
+     
+        <button class="btn btn-outline-success" type="submit">Get Started</button>
+    </div>
+  </div>
+  </div>
+
+</nav>
+<div class="demo ">
+  <div class="container">
+    <div class="row">
+    <div class="col-lg-6">
+      <div class="demo_text">
+    <h1 class="text-white">Better Solutions For Your<br> Business</h1>  <h5 class="text-light">We are team of talented designers making webs<br>bootstraps</h5>
+    <button class="button btn btn-info rounded-pill" style="margin-top: 50px;">Get Started
+      
+    </button>
+  </div>
+</div>
+
+    <div class="col-lg-6 pt-5">
+    <div class="demo_image" >
+      <img src="hero-img.png" style="width: 100%">
+
+  </div>
+  </div>
+  </div>
+</div>
+</div>
+</div>
+<div class="container-fluid m-3">
+  <div class="row">
+    <div class="col-lg-2">
+      <img src="client-1.png" width="100px" height="100px">
+    </div>
+    <div class="col-lg-2">
+      <img src="client-1.png" width="100px" height="100px">
+    </div>
+    <div class="col-lg-2">
+      <img src="client-3.png" width="100px" height="100px">
+    </div>
+    <div class="col-lg-2">
+      <img src="client-4.png" width="100px" height="100px">
+    </div>
+    <div class="col-lg-2">
+      <img src="client-5.png" width="100px" height="100px" >
+    </div>
+    <div class="col-lg-2">
+      <img src="client-6.png" width="100px" height="100px">
+    </div>
+  </div>
+</div>
+ 
+</div>
+
+
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+
+</html>
